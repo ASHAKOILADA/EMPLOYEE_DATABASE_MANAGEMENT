@@ -52,9 +52,6 @@ def lookup_employee(employee_dict):
         print("_" * 30)
         #prints the employee ID which are present in DB
         print("Here are the employee_ID present in the database.")
-        for x in employee_dict:
-              print(x)
-        print("_" * 30)
 
 # adding new employee into the Db
 def add_new_employee(employee_dict):
@@ -97,12 +94,6 @@ def change_existing_employee_details(employee_dict):
         employee.job_title = job_title
         print("New Employee details updated.")
         print("_" * 30)
-        """
-        #using update function
-        new_details = { 'name' : name ,'department' : department, 'job_title' : job_title}
-        employee_dict[employee_id].update(new_details)
-        print("New Employee details updated.")
-        """
     #if iD not present
     else:
         print("Employee details not found")
