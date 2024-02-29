@@ -9,7 +9,8 @@ Features
    
 CONCLUSION:
 Store updated data in the database
-Requirements
+
+Requirements:
 To run this project, you need to have the following installed on your system:
 
 Python 3.0
